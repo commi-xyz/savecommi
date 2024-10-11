@@ -1,0 +1,737 @@
+
+local commi20 = Instance.new("ScreenGui")
+local loaderui = Instance.new("Frame")
+local commititle = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local subtitle = Instance.new("TextLabel")
+local t = Instance.new("TextLabel")
+local co = Instance.new("ImageLabel")
+local textinit = Instance.new("TextLabel")
+local thiswont = Instance.new("TextLabel")
+local firstline = Instance.new("Frame")
+local firststatusdots = Instance.new("Frame")
+local checking = Instance.new("TextLabel")
+local validating = Instance.new("TextLabel")
+local onour = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local dots = Instance.new("Frame")
+local second = Instance.new("TextLabel")
+local first = Instance.new("TextLabel")
+local fourth = Instance.new("TextLabel")
+local third = Instance.new("TextLabel")
+local thirdstatusdots = Instance.new("Frame")
+local checking_2 = Instance.new("TextLabel")
+local validating_2 = Instance.new("TextLabel")
+local onour_2 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local secondstatusdots = Instance.new("Frame")
+local onour_3 = Instance.new("TextLabel")
+local validating_3 = Instance.new("TextLabel")
+local checking_3 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local secondline = Instance.new("Frame")
+local thirdline = Instance.new("Frame")
+local fourthstatusdots = Instance.new("Frame")
+local checking_4 = Instance.new("TextLabel")
+local validating_4 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+
+--Properties:
+
+commi20.Name = "commi-2.0"
+commi20.Parent = game.StarterGui["COMMI2.0"]
+commi20.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+commi20.ResetOnSpawn = false
+
+loaderui.Name = "loaderui"
+loaderui.Parent = commi20
+loaderui.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+loaderui.BackgroundTransparency = 1.000
+loaderui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+loaderui.BorderSizePixel = 0
+loaderui.Position = UDim2.new(0.442783386, 0, 0.180107534, 0)
+loaderui.Size = UDim2.new(0, 368, 0, 527)
+
+commititle.Name = "commititle"
+commititle.Parent = loaderui
+commititle.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+commititle.BackgroundTransparency = 1.000
+commititle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+commititle.BorderSizePixel = 0
+commititle.Size = UDim2.new(0, 369, 0, 90)
+
+title.Name = "title"
+title.Parent = commititle
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.0298102982, 0, 0, 0)
+title.Size = UDim2.new(0, 200, 0, 61)
+title.Font = Enum.Font.GothamBold
+title.Text = "COMMI.CC"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 46.000
+title.TextTransparency = 1.000
+
+subtitle.Name = "subtitle"
+subtitle.Parent = commititle
+subtitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+subtitle.BackgroundTransparency = 1.000
+subtitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+subtitle.BorderSizePixel = 0
+subtitle.Position = UDim2.new(0.0298102982, 0, 0.487460315, 0)
+subtitle.Size = UDim2.new(0, 165, 0, 31)
+subtitle.Font = Enum.Font.SourceSans
+subtitle.Text = "Stronger Together!"
+subtitle.TextColor3 = Color3.fromRGB(213, 213, 213)
+subtitle.TextSize = 24.000
+subtitle.TextTransparency = 1.000
+subtitle.TextWrapped = true
+
+t.Name = "t"
+t.Parent = commititle
+t.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+t.BackgroundTransparency = 1.000
+t.BorderColor3 = Color3.fromRGB(0, 0, 0)
+t.BorderSizePixel = 0
+t.Position = UDim2.new(0.634146333, 0, 0.200000003, 0)
+t.Size = UDim2.new(0, 147, 0, 54)
+t.Font = Enum.Font.GothamBold
+t.Text = "2.0"
+t.TextColor3 = Color3.fromRGB(255, 255, 255)
+t.TextSize = 100.000
+t.TextTransparency = 1.000
+
+co.Name = "co"
+co.Parent = commititle
+co.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+co.BackgroundTransparency = 1.000
+co.BorderColor3 = Color3.fromRGB(0, 0, 0)
+co.BorderSizePixel = 0
+co.Position = UDim2.new(0.766937673, 0, 0, 0)
+co.Size = UDim2.new(0, 86, 0, 90)
+co.Image = "rbxassetid://138653142968954"
+co.ImageTransparency = 1.000
+
+textinit.Name = "textinit"
+textinit.Parent = loaderui
+textinit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textinit.BackgroundTransparency = 1.000
+textinit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+textinit.BorderSizePixel = 0
+textinit.Position = UDim2.new(0, 0, 0.180434778, 0)
+textinit.Size = UDim2.new(0, 141, 0, 47)
+textinit.Font = Enum.Font.Gotham
+textinit.Text = "Initilazing..."
+textinit.TextColor3 = Color3.fromRGB(255, 255, 255)
+textinit.TextSize = 25.000
+textinit.TextTransparency = 1.000
+
+thiswont.Name = "thiswont"
+thiswont.Parent = loaderui
+thiswont.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+thiswont.BackgroundTransparency = 1.000
+thiswont.BorderColor3 = Color3.fromRGB(0, 0, 0)
+thiswont.BorderSizePixel = 0
+thiswont.Position = UDim2.new(0.0870786533, 0, 0.23906064, 0)
+thiswont.Size = UDim2.new(0, 120, 0, 51)
+thiswont.Font = Enum.Font.Gotham
+thiswont.Text = "This may take long."
+thiswont.TextColor3 = Color3.fromRGB(255, 255, 255)
+thiswont.TextSize = 18.000
+thiswont.TextTransparency = 1.000
+
+firstline.Name = "firstline"
+firstline.Parent = loaderui
+firstline.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+firstline.BackgroundTransparency = 1.000
+firstline.BorderColor3 = Color3.fromRGB(0, 0, 0)
+firstline.BorderSizePixel = 0
+firstline.Position = UDim2.new(0.0589887425, 0, 0.349771887, 0)
+firstline.Size = UDim2.new(0, 21, 0, 88)
+
+firststatusdots.Name = "firststatusdots"
+firststatusdots.Parent = loaderui
+firststatusdots.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+firststatusdots.BackgroundTransparency = 1.000
+firststatusdots.BorderColor3 = Color3.fromRGB(0, 0, 0)
+firststatusdots.BorderSizePixel = 0
+firststatusdots.Position = UDim2.new(0.188202322, 0, 0.3347826, 0)
+firststatusdots.Size = UDim2.new(0, 299, 0, 66)
+
+checking.Name = "checking"
+checking.Parent = firststatusdots
+checking.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+checking.BackgroundTransparency = 1.000
+checking.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checking.BorderSizePixel = 0
+checking.Position = UDim2.new(0.101960763, 0, -0.117647059, 0)
+checking.Size = UDim2.new(0, 104, 0, 41)
+checking.Font = Enum.Font.GothamBold
+checking.Text = "Checking Status"
+checking.TextColor3 = Color3.fromRGB(255, 255, 255)
+checking.TextSize = 20.000
+checking.TextTransparency = 1.000
+
+validating.Name = "validating"
+validating.Parent = firststatusdots
+validating.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+validating.BackgroundTransparency = 1.000
+validating.BorderColor3 = Color3.fromRGB(0, 0, 0)
+validating.BorderSizePixel = 0
+validating.Position = UDim2.new(0.181672871, 0, 0.0625887811, 0)
+validating.Size = UDim2.new(0, 151, 0, 59)
+validating.Font = Enum.Font.Gotham
+validating.Text = "We are validating your whitelist"
+validating.TextColor3 = Color3.fromRGB(255, 255, 255)
+validating.TextSize = 18.000
+validating.TextTransparency = 1.000
+
+onour.Name = "onour"
+onour.Parent = firststatusdots
+onour.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+onour.BackgroundTransparency = 1.000
+onour.BorderColor3 = Color3.fromRGB(0, 0, 0)
+onour.BorderSizePixel = 0
+onour.Position = UDim2.new(-0.198170334, 0, 0.310806274, 0)
+onour.Size = UDim2.new(0, 295, 0, 59)
+onour.Font = Enum.Font.Gotham
+onour.Text = "mark on our system"
+onour.TextColor3 = Color3.fromRGB(255, 255, 255)
+onour.TextSize = 18.000
+onour.TextTransparency = 1.000
+
+UICorner.CornerRadius = UDim.new(0, 6)
+UICorner.Parent = firststatusdots
+
+dots.Name = "dots"
+dots.Parent = loaderui
+dots.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+dots.BackgroundTransparency = 1.000
+dots.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dots.BorderSizePixel = 0
+dots.Position = UDim2.new(0.0589887649, 0, 0.3347826, 0)
+dots.Size = UDim2.new(0, 21, 0, 269)
+
+second.Name = "second"
+second.Parent = dots
+second.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+second.BackgroundTransparency = 1.000
+second.BorderColor3 = Color3.fromRGB(0, 0, 0)
+second.BorderSizePixel = 0
+second.Position = UDim2.new(-4.28571415, 0, 0.219330862, 0)
+second.Size = UDim2.new(0, 200, 0, 50)
+second.Font = Enum.Font.Unknown
+second.Text = "."
+second.TextColor3 = Color3.fromRGB(200, 200, 200)
+second.TextSize = 100.000
+second.TextStrokeColor3 = Color3.fromRGB(194, 194, 194)
+second.TextTransparency = 1.000
+
+first.Name = "first"
+first.Parent = dots
+first.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+first.BackgroundTransparency = 1.000
+first.BorderColor3 = Color3.fromRGB(0, 0, 0)
+first.BorderSizePixel = 0
+first.Position = UDim2.new(-4.28571415, 0, -0.0892193317, 0)
+first.Size = UDim2.new(0, 200, 0, 50)
+first.Font = Enum.Font.Unknown
+first.Text = "."
+first.TextColor3 = Color3.fromRGB(200, 200, 200)
+first.TextSize = 100.000
+first.TextStrokeColor3 = Color3.fromRGB(194, 194, 194)
+first.TextTransparency = 1.000
+
+fourth.Name = "fourth"
+fourth.Parent = dots
+fourth.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fourth.BackgroundTransparency = 1.000
+fourth.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fourth.BorderSizePixel = 0
+fourth.Position = UDim2.new(-4.28571415, 0, 0.847583771, 0)
+fourth.Size = UDim2.new(0, 200, 0, 50)
+fourth.Font = Enum.Font.Unknown
+fourth.Text = "."
+fourth.TextColor3 = Color3.fromRGB(200, 200, 200)
+fourth.TextSize = 100.000
+fourth.TextStrokeColor3 = Color3.fromRGB(194, 194, 194)
+fourth.TextTransparency = 1.000
+
+third.Name = "third"
+third.Parent = dots
+third.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+third.BackgroundTransparency = 1.000
+third.BorderColor3 = Color3.fromRGB(0, 0, 0)
+third.BorderSizePixel = 0
+third.Position = UDim2.new(-4.28571415, 0, 0.546468377, 0)
+third.Size = UDim2.new(0, 200, 0, 50)
+third.Font = Enum.Font.Unknown
+third.Text = "."
+third.TextColor3 = Color3.fromRGB(200, 200, 200)
+third.TextSize = 100.000
+third.TextStrokeColor3 = Color3.fromRGB(194, 194, 194)
+third.TextTransparency = 1.000
+
+thirdstatusdots.Name = "thirdstatusdots"
+thirdstatusdots.Parent = loaderui
+thirdstatusdots.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+thirdstatusdots.BackgroundTransparency = 1.000
+thirdstatusdots.BorderColor3 = Color3.fromRGB(0, 0, 0)
+thirdstatusdots.BorderSizePixel = 0
+thirdstatusdots.Position = UDim2.new(0.187999889, 0, 0.668297887, 0)
+thirdstatusdots.Size = UDim2.new(0, 299, 0, 70)
+
+checking_2.Name = "checking"
+checking_2.Parent = thirdstatusdots
+checking_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+checking_2.BackgroundTransparency = 1.000
+checking_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checking_2.BorderSizePixel = 0
+checking_2.Position = UDim2.new(0.101960763, 0, -0.117647059, 0)
+checking_2.Size = UDim2.new(0, 104, 0, 41)
+checking_2.Font = Enum.Font.GothamBold
+checking_2.Text = "Checking Status"
+checking_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+checking_2.TextSize = 20.000
+checking_2.TextTransparency = 1.000
+
+validating_2.Name = "validating"
+validating_2.Parent = thirdstatusdots
+validating_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+validating_2.BackgroundTransparency = 1.000
+validating_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+validating_2.BorderSizePixel = 0
+validating_2.Position = UDim2.new(-0.159214392, 0, 0.0625889376, 0)
+validating_2.Size = UDim2.new(0, 363, 0, 59)
+validating_2.Font = Enum.Font.Gotham
+validating_2.Text = "We are validating your whitelist"
+validating_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+validating_2.TextSize = 18.000
+validating_2.TextTransparency = 1.000
+
+onour_2.Name = "onour"
+onour_2.Parent = thirdstatusdots
+onour_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+onour_2.BackgroundTransparency = 1.000
+onour_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+onour_2.BorderSizePixel = 0
+onour_2.Position = UDim2.new(-0.134625182, 0, 0.371412426, 0)
+onour_2.Size = UDim2.new(0, 261, 0, 59)
+onour_2.Font = Enum.Font.Gotham
+onour_2.Text = "mark on our system"
+onour_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+onour_2.TextSize = 18.000
+onour_2.TextTransparency = 1.000
+
+UICorner_2.CornerRadius = UDim.new(0, 6)
+UICorner_2.Parent = thirdstatusdots
+
+secondstatusdots.Name = "secondstatusdots"
+secondstatusdots.Parent = loaderui
+secondstatusdots.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+secondstatusdots.BackgroundTransparency = 1.000
+secondstatusdots.BorderColor3 = Color3.fromRGB(0, 0, 0)
+secondstatusdots.BorderSizePixel = 0
+secondstatusdots.Position = UDim2.new(0.188202322, 0, 0.506521761, 0)
+secondstatusdots.Size = UDim2.new(0, 299, 0, 68)
+
+onour_3.Name = "onour"
+onour_3.Parent = secondstatusdots
+onour_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+onour_3.BackgroundTransparency = 1.000
+onour_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+onour_3.BorderSizePixel = 0
+onour_3.Position = UDim2.new(-0.43757838, 0, 0.386118263, 0)
+onour_3.Size = UDim2.new(0, 362, 0, 59)
+onour_3.Font = Enum.Font.Gotham
+onour_3.Text = "on github."
+onour_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+onour_3.TextSize = 18.000
+onour_3.TextTransparency = 1.000
+
+validating_3.Name = "validating"
+validating_3.Parent = secondstatusdots
+validating_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+validating_3.BackgroundTransparency = 1.000
+validating_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+validating_3.BorderSizePixel = 0
+validating_3.Position = UDim2.new(0.181672871, 0, 0.0625888631, 0)
+validating_3.Size = UDim2.new(0, 196, 0, 59)
+validating_3.Font = Enum.Font.Gotham
+validating_3.Text = "We are validating your exploit version"
+validating_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+validating_3.TextSize = 18.000
+validating_3.TextTransparency = 1.000
+
+checking_3.Name = "checking"
+checking_3.Parent = secondstatusdots
+checking_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+checking_3.BackgroundTransparency = 1.000
+checking_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checking_3.BorderSizePixel = 0
+checking_3.Position = UDim2.new(-0.15946424, 0, -0.117647059, 0)
+checking_3.Size = UDim2.new(0, 278, 0, 41)
+checking_3.Font = Enum.Font.GothamBold
+checking_3.Text = "Checking Updates"
+checking_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+checking_3.TextSize = 20.000
+checking_3.TextTransparency = 1.000
+
+UICorner_3.CornerRadius = UDim.new(0, 6)
+UICorner_3.Parent = secondstatusdots
+
+secondline.Name = "secondline"
+secondline.Parent = loaderui
+secondline.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+secondline.BackgroundTransparency = 1.000
+secondline.BorderColor3 = Color3.fromRGB(0, 0, 0)
+secondline.BorderSizePixel = 0
+secondline.Position = UDim2.new(0.0589888208, 0, 0.516754806, 0)
+secondline.Size = UDim2.new(0, 21, 0, 99)
+secondline.ZIndex = 0
+
+thirdline.Name = "thirdline"
+thirdline.Parent = loaderui
+thirdline.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+thirdline.BackgroundTransparency = 1.000
+thirdline.BorderColor3 = Color3.fromRGB(0, 0, 0)
+thirdline.BorderSizePixel = 0
+thirdline.Position = UDim2.new(0.0589888208, 0, 0.676611483, 0)
+thirdline.Size = UDim2.new(0, 21, 0, 87)
+thirdline.ZIndex = 0
+
+fourthstatusdots.Name = "fourthstatusdots"
+fourthstatusdots.Parent = loaderui
+fourthstatusdots.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+fourthstatusdots.BackgroundTransparency = 1.000
+fourthstatusdots.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fourthstatusdots.BorderSizePixel = 0
+fourthstatusdots.Position = UDim2.new(0.187999889, 0, 0.842868745, 0)
+fourthstatusdots.Size = UDim2.new(0, 299, 0, 49)
+
+checking_4.Name = "checking"
+checking_4.Parent = fourthstatusdots
+checking_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+checking_4.BackgroundTransparency = 1.000
+checking_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+checking_4.BorderSizePixel = 0
+checking_4.Position = UDim2.new(0.235740021, 0, -0.117647007, 0)
+checking_4.Size = UDim2.new(0, 64, 0, 41)
+checking_4.Font = Enum.Font.GothamBold
+checking_4.Text = "Installation Complete"
+checking_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+checking_4.TextSize = 20.000
+checking_4.TextTransparency = 1.000
+
+validating_4.Name = "validating"
+validating_4.Parent = fourthstatusdots
+validating_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+validating_4.BackgroundTransparency = 1.000
+validating_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+validating_4.BorderSizePixel = 0
+validating_4.Position = UDim2.new(-0.159214392, 0, 0.164629251, 0)
+validating_4.Size = UDim2.new(0, 363, 0, 54)
+validating_4.Font = Enum.Font.Gotham
+validating_4.Text = "Welcome to commi 2.0, enjoy it!"
+validating_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+validating_4.TextSize = 18.000
+validating_4.TextTransparency = 1.000
+
+UICorner_4.CornerRadius = UDim.new(0, 6)
+UICorner_4.Parent = fourthstatusdots
+
+-- Scripts:
+
+local function BNWHS_fake_script() -- commititle.e 
+	local script = Instance.new('LocalScript', commititle)
+
+	-- TweenService:
+	
+	local TS = game:GetService("TweenService")
+	
+	-- Variables:
+	
+	local title = script.Parent.title
+	local frame = script.Parent
+	local subtitle = script.Parent.subtitle
+	local image = script.Parent.co
+	local t = script.Parent.t
+	
+	-- Script:
+	
+	
+	local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+	local frame = TS:Create(frame, tweenInfo, {BackgroundTransparency = 0})
+	
+	wait(2)
+	frame:Play()
+	
+	local textTween1 = TS:Create(title, tweenInfo, {TextTransparency = 0})
+	local textTween2 = TS:Create(subtitle, tweenInfo, {TextTransparency = 0})
+	local imageTween = TS:Create(image, tweenInfo, {ImageTransparency = 0})
+	local tt = TS:Create(t, tweenInfo, {TextTransparency = 0.85})
+	
+	wait(0.6)
+	textTween1:Play()
+	wait(0.2)
+	textTween2:Play()
+	wait(0.5)
+	imageTween:Play()
+	wait(0.2)
+	tt:Play()
+end
+coroutine.wrap(BNWHS_fake_script)()
+local function SKRC_fake_script() -- loaderui.textonloader 
+	local script = Instance.new('LocalScript', loaderui)
+
+	-- TweenService:
+	
+	local TS = game:GetService("TweenService")
+	
+	-- Variables:
+	
+	local title = script.Parent.textinit
+	
+	local subtitle = script.Parent.thiswont
+	
+	local line1 = script.Parent.firstline
+	local line2 = script.Parent.secondline
+	local line3 = script.Parent.thirdline
+	
+	local dots = script.Parent.dots
+	local dot1 = dots.first
+	local dot2 = dots.second
+	local dot3 = dots.third
+	local dot4 = dots.fourth
+	
+	-- Script:
+	
+	wait(5)
+	
+	local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	local textTween1 = TS:Create(title, tweenInfo, {TextTransparency = 0})
+	local textTween2 = TS:Create(subtitle, tweenInfo, {TextTransparency = 0})
+	
+	local ln1 = TS:Create(line1, tweenInfo, {BackgroundTransparency = 0})
+	local ln2 = TS:Create(line2, tweenInfo, {BackgroundTransparency = 0})
+	local ln3 = TS:Create(line3, tweenInfo, {BackgroundTransparency = 0})
+	
+	local d1 = TS:Create(dot1, tweenInfo, {TextTransparency = 0})
+	local d2 = TS:Create(dot2, tweenInfo, {TextTransparency = 0})
+	local d3 = TS:Create(dot3, tweenInfo, {TextTransparency = 0})
+	local d4 = TS:Create(dot4, tweenInfo, {TextTransparency = 0})
+	
+	wait(0.6)
+	textTween1:Play()
+	wait(0.2)
+	textTween2:Play()
+	wait(0.2)
+	ln1:Play()
+	d1:Play()
+	d2:Play()
+	ln2:Play()
+	d3:Play()
+	ln3:Play()
+	d4:Play()
+end
+coroutine.wrap(SKRC_fake_script)()
+local function CJQA_fake_script() -- loaderui.check 
+	local script = Instance.new('LocalScript', loaderui)
+
+	-- TweenService:
+	
+	local TS = game:GetService("TweenService")
+	
+	-- Variables:
+	
+	local firstDot = script.Parent.dots:FindFirstChild("first")
+	
+	-- Frame:
+	
+	local status = script.Parent.firststatusdots
+	local checking = script.Parent.firststatusdots.checking
+	local validating = script.Parent.firststatusdots.validating
+	local onour = script.Parent.firststatusdots.onour
+	
+	wait(5)
+	
+	local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	local frameTween = TS:Create(status, tweenInfo, {BackgroundTransparency = 0})
+	local textTween1 = TS:Create(checking, tweenInfo, {TextTransparency = 0})
+	local textTween2 = TS:Create(validating, tweenInfo, {TextTransparency = 0})
+	local textTween3 = TS:Create(onour, tweenInfo, {TextTransparency = 0})
+	
+	wait(2)
+	
+	firstDot.TextColor3 = Color3.new(0, 0.533333, 1)
+	
+	frameTween:Play()
+	wait(0.9)
+	textTween1:Play()
+	wait(0.2)
+	textTween2:Play()
+	textTween3:Play()
+	
+	
+	wait(5)
+	
+	status.AnchorPoint = Vector2.new(0, 0)
+	status.Position = UDim2.new(0.188, 0, 0.335, 0)
+	
+	wait(3)
+	
+	local tweenInfo2 = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+	local tween = TS:Create(status, tweenInfo, {Position = UDim2.new(0.188, 0, 0.507, 0)})
+	
+	tween:Play()
+	
+	local secondDot = script.Parent.dots.second
+	secondDot.TextColor3 = Color3.new(0, 0.533333, 1)
+	
+	local secondframe = script.Parent.secondstatusdots
+	local firstline = script.Parent.firstline
+	
+	-- second text:
+	
+	local secondchecking = script.Parent.secondstatusdots.checking
+	local secondvalidating = script.Parent.secondstatusdots.validating
+	local secondonour = script.Parent.secondstatusdots.onour
+	
+	wait(2)
+	status.Visible = false
+	checking:Destroy()
+	validating:Destroy()
+	onour:Destroy()
+	firstline.BackgroundColor3 = Color3.new(0, 0.392157, 0.737255)
+	secondframe.BackgroundTransparency = 0
+	
+	local secondtextTween = TS:Create(secondchecking, tweenInfo, {TextTransparency = 0})
+	local secondvalid = TS:Create(secondvalidating, tweenInfo, {TextTransparency = 0})
+	local secondonour = TS:Create(secondonour, tweenInfo, {TextTransparency = 0})
+	
+	secondtextTween:Play()
+	wait(0.2)
+	secondvalid:Play()
+	secondonour:Play()
+	
+	secondframe.AnchorPoint = Vector2.new(0, 0)
+	secondframe.Position = UDim2.new(0.188, 0, 0.507, 0)
+	
+	wait(3)
+	
+	local secondtweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+	local secondtween = TS:Create(secondframe, tweenInfo, {Position = UDim2.new(0.188, 0, 0.668, 0)})
+	
+	secondtween:Play()
+	local thirdDot = script.Parent.dots.third
+	thirdDot.TextColor3 = Color3.new(0, 0.533333, 1)
+	
+	local secondline = script.Parent.secondline
+	secondline.BackgroundColor3 = Color3.new(0, 0.392157, 0.737255)
+	
+	local thirdframe = script.Parent.thirdstatusdots
+	local thirdchecking = script.Parent.thirdstatusdots.checking
+	local thirdvalid = script.Parent.thirdstatusdots.validating
+	local thirdonour = script.Parent.thirdstatusdots.onour
+	wait(2)
+	secondframe.Visible = false
+	thirdframe.BackgroundTransparency = 0
+	
+	local thirdcheckingTween = TS:Create(thirdchecking, tweenInfo, {TextTransparency = 0})
+	local thirdvalidTween = TS:Create(thirdvalid, tweenInfo, {TextTransparency = 0})
+	local thirdonourTween = TS:Create(thirdonour, tweenInfo, {TextTransparency = 0})
+	
+	thirdcheckingTween:Play()
+	wait(0.2)
+	thirdvalidTween:Play()
+	thirdonourTween:Play()
+	
+	
+	thirdframe.AnchorPoint = Vector2.new(0, 0)
+	thirdframe.Position = UDim2.new(0.188, 0, 0.668, 0)
+	
+	wait(3)
+	
+	local thirdframetweenInfo = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+	local thirdframetween = TS:Create(thirdframe, tweenInfo, {Position = UDim2.new(0.188, 0, 0.843, 0)})
+	
+	thirdframetween:Play()
+	local fourthDot = script.Parent.dots.fourth
+	fourthDot.TextColor3 = Color3.new(0, 0.533333, 1)
+	
+	local thirdline = script.Parent.thirdline
+	thirdline.BackgroundColor3 = Color3.new(0, 0.392157, 0.737255)
+	
+	local finalframe = script.Parent.fourthstatusdots
+	local finalchecking = finalframe.checking
+	local finalvalid = finalframe.validating
+	
+	wait(1)
+	
+	local finalTween = TS:Create(finalframe, tweenInfo, {BackgroundTransparency = 0})
+	local fcheckTween = TS:Create(finalchecking, tweenInfo, {TextTransparency = 0})
+	local fvalidTween = TS:Create(finalvalid, tweenInfo, {TextTransparency = 0})
+	
+	thirdframe.Visible = false
+	thirdchecking:Destroy()
+	thirdvalid:Destroy()
+	thirdonour:Destroy()
+	
+	finalTween:Play()
+	wait(0.9)
+	fcheckTween:Play()
+	wait(0.2)
+	fvalidTween:Play()
+	
+	wait(3)
+	
+	local loader = script.Parent
+	
+	local tweenInfo2 = TweenInfo.new(0.2, Enum.EasingStyle.Elastic, Enum.EasingDirection.Out)
+	
+	local loaderTween = TS:Create(loader, tweenInfo2, {Visible = false})
+	
+	loaderTween:Play()
+	
+	wait(2)
+	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/commi-xyz/savecommi/refs/heads/main/commi-2_0"))()
+	wait(0.5)
+	loader:Destroy()
+end
+coroutine.wrap(CJQA_fake_script)()
+local function IADHUPJ_fake_script() -- loaderui.loadloader 
+	local script = Instance.new('LocalScript', loaderui)
+
+	local loader = script.Parent
+	
+	local TS = game:GetService("TweenService")
+	
+	local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+	local loaderTween = TS:Create(loader, tweenInfo, {BackgroundTransparency = 0})
+	wait(0.2)
+	loaderTween:Play()
+end
+coroutine.wrap(IADHUPJ_fake_script)()
+local function AKKVX_fake_script() -- loaderui.lol 
+	local script = Instance.new('LocalScript', loaderui)
+
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+	local frame = script.Parent
+	local f2rame = script.Parent.commititle
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+	f2rame.Draggable = true
+	f2rame.Selectable = true
+	f2rame.Active = true
+end
+coroutine.wrap(AKKVX_fake_script)()
