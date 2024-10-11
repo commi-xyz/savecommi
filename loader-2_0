@@ -38,8 +38,8 @@ local UICorner_4 = Instance.new("UICorner")
 
 --Properties:
 
-commi20.Name = "commi-2.0"
-commi20.Parent = game.StarterGui["COMMI2.0"]
+commi20.Name = "commi20"
+commi20.Parent = game.Players.LocalPlayer:FindFirstChild("PlayerGui")
 commi20.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 commi20.ResetOnSpawn = false
 
