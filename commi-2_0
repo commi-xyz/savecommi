@@ -31,7 +31,7 @@ local UIGradient = Instance.new("UIGradient")
 --Properties:
 
 commiexec.Name = "commiexec"
-commiexec.Parent = game.StarterGui["COMMI2.0"]
+commiexec.Parent = game.Players.LocalPlayer:FindFirstChild("PlayerGui")
 commiexec.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 commiexec.DisplayOrder = 6
 commiexec.ResetOnSpawn = false
