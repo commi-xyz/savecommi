@@ -1,0 +1,583 @@
+
+local commiexec = Instance.new("ScreenGui")
+local executor = Instance.new("Frame")
+local titletab = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local co = Instance.new("ImageLabel")
+local Execution = Instance.new("TextLabel")
+local Script1 = Instance.new("Frame")
+local ScriptText = Instance.new("TextLabel")
+local plus = Instance.new("TextLabel")
+local scripthub = Instance.new("Frame")
+local helloworld = Instance.new("TextButton")
+local unc_test = Instance.new("TextButton")
+local inf_yield = Instance.new("TextButton")
+local owl_hub = Instance.new("TextButton")
+local user_creation = Instance.new("TextButton")
+local universal_aim = Instance.new("TextButton")
+local dex = Instance.new("TextButton")
+local remove_spy = Instance.new("TextButton")
+local car_speed = Instance.new("TextButton")
+local executeButton = Instance.new("TextButton")
+local Executebox = Instance.new("TextBox")
+local clearButton = Instance.new("TextButton")
+local OffexecutorUI = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local star = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local star_2 = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+
+--Properties:
+
+commiexec.Name = "commiexec"
+commiexec.Parent = game.StarterGui["COMMI2.0"]
+commiexec.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+commiexec.DisplayOrder = 6
+commiexec.ResetOnSpawn = false
+
+executor.Name = "executor"
+executor.Parent = commiexec
+executor.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+executor.BackgroundTransparency = 1.000
+executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+executor.BorderSizePixel = 0
+executor.Position = UDim2.new(0.342872053, 0, 0.256720424, 0)
+executor.Size = UDim2.new(0, 707, 0, 415)
+
+titletab.Name = "titletab"
+titletab.Parent = executor
+titletab.BackgroundColor3 = Color3.fromRGB(0, 115, 255)
+titletab.BackgroundTransparency = 1.000
+titletab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+titletab.BorderSizePixel = 0
+titletab.Size = UDim2.new(0, 707, 0, 46)
+
+title.Name = "title"
+title.Parent = titletab
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.117699951, 0, -0.0638865605, 0)
+title.Size = UDim2.new(0, 129, 0, 50)
+title.Font = Enum.Font.GothamBold
+title.Text = "MMI.CC"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 46.000
+title.TextTransparency = 1.000
+
+co.Name = "co"
+co.Parent = titletab
+co.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+co.BackgroundTransparency = 1.000
+co.BorderColor3 = Color3.fromRGB(0, 0, 0)
+co.BorderSizePixel = 0
+co.Position = UDim2.new(0, 0, -0.217391297, 0)
+co.Size = UDim2.new(0, 76, 0, 66)
+co.Image = "rbxassetid://138653142968954"
+co.ImageTransparency = 1.000
+
+Execution.Name = "Execution"
+Execution.Parent = executor
+Execution.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Execution.BackgroundTransparency = 1.000
+Execution.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execution.BorderSizePixel = 0
+Execution.Position = UDim2.new(-0.032531824, 0, 0.101532057, 0)
+Execution.Size = UDim2.new(0, 200, 0, 50)
+Execution.Font = Enum.Font.SourceSansBold
+Execution.Text = "Execution"
+Execution.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execution.TextSize = 33.000
+Execution.TextTransparency = 1.000
+
+Script1.Name = "Script1"
+Script1.Parent = executor
+Script1.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Script1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Script1.BorderSizePixel = 0
+Script1.Position = UDim2.new(0.0311173983, 0, 0.222222239, 0)
+Script1.Size = UDim2.new(0, 43, 0, 26)
+Script1.Visible = false
+
+ScriptText.Name = "ScriptText"
+ScriptText.Parent = Script1
+ScriptText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptText.BackgroundTransparency = 1.000
+ScriptText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptText.BorderSizePixel = 0
+ScriptText.Position = UDim2.new(0, 0, -0.00332406862, 0)
+ScriptText.Size = UDim2.new(0, 44, 0, 23)
+ScriptText.Font = Enum.Font.Arial
+ScriptText.Text = "Script"
+ScriptText.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptText.TextSize = 14.000
+
+plus.Name = "plus"
+plus.Parent = Script1
+plus.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+plus.BackgroundTransparency = 1.000
+plus.BorderColor3 = Color3.fromRGB(0, 0, 0)
+plus.BorderSizePixel = 0
+plus.Position = UDim2.new(1.02325583, 0, -0.00332406862, 0)
+plus.Size = UDim2.new(0, 22, 0, 23)
+plus.Font = Enum.Font.Arial
+plus.Text = "+"
+plus.TextColor3 = Color3.fromRGB(255, 255, 255)
+plus.TextSize = 14.000
+
+scripthub.Name = "scripthub"
+scripthub.Parent = executor
+scripthub.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+scripthub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scripthub.BorderSizePixel = 0
+scripthub.ClipsDescendants = true
+scripthub.Position = UDim2.new(0.80763793, 0, 0.222222224, 0)
+scripthub.Size = UDim2.new(0, 126, 0, 296)
+scripthub.Visible = false
+
+helloworld.Name = "helloworld"
+helloworld.Parent = scripthub
+helloworld.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+helloworld.BorderColor3 = Color3.fromRGB(0, 0, 0)
+helloworld.BorderSizePixel = 0
+helloworld.Size = UDim2.new(0, 126, 0, 27)
+helloworld.Font = Enum.Font.SourceSans
+helloworld.Text = "Hello, World"
+helloworld.TextColor3 = Color3.fromRGB(255, 255, 255)
+helloworld.TextSize = 15.000
+helloworld.TextXAlignment = Enum.TextXAlignment.Left
+
+unc_test.Name = "unc_test"
+unc_test.Parent = scripthub
+unc_test.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+unc_test.BorderColor3 = Color3.fromRGB(0, 0, 0)
+unc_test.BorderSizePixel = 0
+unc_test.Position = UDim2.new(0, 0, 0.091216214, 0)
+unc_test.Size = UDim2.new(0, 126, 0, 27)
+unc_test.Font = Enum.Font.SourceSans
+unc_test.Text = "UNC"
+unc_test.TextColor3 = Color3.fromRGB(255, 255, 255)
+unc_test.TextSize = 15.000
+unc_test.TextXAlignment = Enum.TextXAlignment.Left
+
+inf_yield.Name = "inf_yield"
+inf_yield.Parent = scripthub
+inf_yield.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+inf_yield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+inf_yield.BorderSizePixel = 0
+inf_yield.Position = UDim2.new(0, 0, 0.182432428, 0)
+inf_yield.Size = UDim2.new(0, 126, 0, 27)
+inf_yield.Font = Enum.Font.SourceSans
+inf_yield.Text = "Infinity Yield"
+inf_yield.TextColor3 = Color3.fromRGB(255, 255, 255)
+inf_yield.TextSize = 15.000
+inf_yield.TextXAlignment = Enum.TextXAlignment.Left
+
+owl_hub.Name = "owl_hub"
+owl_hub.Parent = scripthub
+owl_hub.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+owl_hub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+owl_hub.BorderSizePixel = 0
+owl_hub.Position = UDim2.new(0, 0, 0.273648649, 0)
+owl_hub.Size = UDim2.new(0, 126, 0, 27)
+owl_hub.Font = Enum.Font.SourceSans
+owl_hub.Text = "Owl Hub"
+owl_hub.TextColor3 = Color3.fromRGB(255, 255, 255)
+owl_hub.TextSize = 15.000
+owl_hub.TextXAlignment = Enum.TextXAlignment.Left
+
+user_creation.Name = "user_creation"
+user_creation.Parent = scripthub
+user_creation.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+user_creation.BorderColor3 = Color3.fromRGB(0, 0, 0)
+user_creation.BorderSizePixel = 0
+user_creation.Position = UDim2.new(0, 0, 0.364864856, 0)
+user_creation.Size = UDim2.new(0, 126, 0, 27)
+user_creation.Font = Enum.Font.SourceSans
+user_creation.Text = "UserCreation Bypass"
+user_creation.TextColor3 = Color3.fromRGB(255, 255, 255)
+user_creation.TextSize = 15.000
+user_creation.TextXAlignment = Enum.TextXAlignment.Left
+
+universal_aim.Name = "universal_aim"
+universal_aim.Parent = scripthub
+universal_aim.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+universal_aim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+universal_aim.BorderSizePixel = 0
+universal_aim.Position = UDim2.new(0, 0, 0.452702701, 0)
+universal_aim.Size = UDim2.new(0, 126, 0, 27)
+universal_aim.Font = Enum.Font.SourceSans
+universal_aim.Text = "Universal Aimbot"
+universal_aim.TextColor3 = Color3.fromRGB(255, 255, 255)
+universal_aim.TextSize = 15.000
+universal_aim.TextXAlignment = Enum.TextXAlignment.Left
+
+dex.Name = "dex"
+dex.Parent = scripthub
+dex.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+dex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dex.BorderSizePixel = 0
+dex.Position = UDim2.new(0, 0, 0.543918908, 0)
+dex.Size = UDim2.new(0, 126, 0, 27)
+dex.Font = Enum.Font.SourceSans
+dex.Text = "Dex"
+dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+dex.TextSize = 15.000
+dex.TextXAlignment = Enum.TextXAlignment.Left
+
+remove_spy.Name = "remove_spy"
+remove_spy.Parent = scripthub
+remove_spy.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+remove_spy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+remove_spy.BorderSizePixel = 0
+remove_spy.Position = UDim2.new(0, 0, 0.635135114, 0)
+remove_spy.Size = UDim2.new(0, 126, 0, 27)
+remove_spy.Font = Enum.Font.SourceSans
+remove_spy.Text = "Remote Spy"
+remove_spy.TextColor3 = Color3.fromRGB(255, 255, 255)
+remove_spy.TextSize = 15.000
+remove_spy.TextXAlignment = Enum.TextXAlignment.Left
+
+car_speed.Name = "car_speed"
+car_speed.Parent = scripthub
+car_speed.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+car_speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+car_speed.BorderSizePixel = 0
+car_speed.Position = UDim2.new(0, 0, 0.72635138, 0)
+car_speed.Size = UDim2.new(0, 126, 0, 27)
+car_speed.Font = Enum.Font.SourceSans
+car_speed.Text = "Car Speed"
+car_speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+car_speed.TextSize = 15.000
+car_speed.TextXAlignment = Enum.TextXAlignment.Left
+
+executeButton.Name = "executeButton"
+executeButton.Parent = executor
+executeButton.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+executeButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+executeButton.BorderSizePixel = 0
+executeButton.Position = UDim2.new(0.0311173983, 0, 0.886694014, 0)
+executeButton.Size = UDim2.new(0, 95, 0, 36)
+executeButton.Visible = false
+executeButton.Font = Enum.Font.SourceSans
+executeButton.Text = "Execute"
+executeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+executeButton.TextSize = 14.000
+
+Executebox.Name = "Executebox"
+Executebox.Parent = executor
+Executebox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Executebox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Executebox.BorderSizePixel = 0
+Executebox.ClipsDescendants = true
+Executebox.Position = UDim2.new(0.0311173983, 0, 0.281051755, 0)
+Executebox.Size = UDim2.new(0, 537, 0, 240)
+Executebox.Visible = false
+Executebox.ClearTextOnFocus = false
+Executebox.Font = Enum.Font.SourceSans
+Executebox.MultiLine = true
+Executebox.PlaceholderColor3 = Color3.fromRGB(84, 149, 84)
+Executebox.PlaceholderText = "-- Insert code here."
+Executebox.Text = ""
+Executebox.TextColor3 = Color3.fromRGB(255, 255, 255)
+Executebox.TextSize = 17.000
+Executebox.TextXAlignment = Enum.TextXAlignment.Left
+Executebox.TextYAlignment = Enum.TextYAlignment.Top
+
+clearButton.Name = "clearButton"
+clearButton.Parent = executor
+clearButton.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+clearButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clearButton.BorderSizePixel = 0
+clearButton.Position = UDim2.new(0.175388962, 0, 0.886694014, 0)
+clearButton.Size = UDim2.new(0, 95, 0, 36)
+clearButton.Visible = false
+clearButton.Font = Enum.Font.SourceSans
+clearButton.Text = "Clear"
+clearButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+clearButton.TextSize = 14.000
+
+OffexecutorUI.Name = "OffexecutorUI"
+OffexecutorUI.Parent = commiexec
+OffexecutorUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OffexecutorUI.BackgroundTransparency = 1.000
+OffexecutorUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OffexecutorUI.BorderSizePixel = 0
+OffexecutorUI.Position = UDim2.new(0.170441642, 0, 0.911627948, 0)
+OffexecutorUI.Size = UDim2.new(0, 40, 0, 42)
+OffexecutorUI.Visible = false
+OffexecutorUI.ZIndex = 3
+OffexecutorUI.Font = Enum.Font.SourceSans
+OffexecutorUI.Text = ""
+OffexecutorUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+OffexecutorUI.TextSize = 14.000
+
+Frame.Parent = OffexecutorUI
+Frame.BackgroundColor3 = Color3.fromRGB(0, 68, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.0666656494, 0, 0, 0)
+Frame.Size = UDim2.new(0, 42, 0, 41)
+
+star.Name = "star"
+star.Parent = Frame
+star.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+star.BackgroundTransparency = 1.000
+star.BorderColor3 = Color3.fromRGB(0, 0, 0)
+star.BorderSizePixel = 0
+star.Size = UDim2.new(0, 42, 0, 44)
+star.Image = "http://www.roblox.com/asset/?id=138653142968954"
+star.ImageColor3 = Color3.fromRGB(0, 38, 255)
+
+UICorner.CornerRadius = UDim.new(0, 7)
+UICorner.Parent = Frame
+
+star_2.Name = "star"
+star_2.Parent = Frame
+star_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+star_2.BackgroundTransparency = 1.000
+star_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+star_2.BorderSizePixel = 0
+star_2.Position = UDim2.new(0, 0, 5.54865073e-06, 0)
+star_2.Size = UDim2.new(0, 42, 0, 38)
+star_2.Image = "http://www.roblox.com/asset/?id=138653142968954"
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(173, 173, 173)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(173, 173, 173))}
+UIGradient.Parent = star_2
+
+-- Scripts:
+
+-- executor.loadui is disabled.
+local function JOCNE_fake_script() -- titletab.animateall 
+	local script = Instance.new('LocalScript', titletab)
+
+	local tab = script.Parent
+	local CO = script.Parent.co
+	local title = script.Parent.title
+	
+	local main = script.Parent.Parent
+	
+	
+	local scripthub = main.scripthub
+	local script1 = main.Script1
+	local exb = main.executeButton
+	local extext = main.Execution
+	local clb = main.clearButton
+	local exbox = main.Executebox
+	
+	local TS = game:GetService("TweenService")
+	
+	local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+	local tabTween = TS:Create(tab, tweenInfo, {BackgroundTransparency = 0})
+	local titleTween = TS:Create(title, tweenInfo, {TextTransparency = 0})
+	local imageTween = TS:Create(CO, tweenInfo, {ImageTransparency = 0})
+	
+	while true do
+		wait(0.1)
+		if main.BackgroundTransparency == 0 then
+			tabTween:Play()
+			wait(0.2)
+			imageTween:Play()
+			titleTween:Play()
+			wait(0.7)
+			extext.TextTransparency = 0
+			script1.Visible = true
+			exbox.Visible = true
+			scripthub.Visible = true
+			exb.Visible = true
+			clb.Visible = true
+		end
+	end
+	
+	
+end
+coroutine.wrap(JOCNE_fake_script)()
+local function NZYR_fake_script() -- helloworld.e 
+	local script = Instance.new('LocalScript', helloworld)
+
+	local button = script.Parent
+	local executeBox = script.Parent.Parent.Parent.Executebox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		executeBox.Text = [[print("Hello, World!")]]
+	end)
+end
+coroutine.wrap(NZYR_fake_script)()
+local function TVNGF_fake_script() -- unc_test.LocalScript 
+	local script = Instance.new('LocalScript', unc_test)
+
+	local button = script.Parent
+	local executeBox = script.Parent.Parent.Parent.Executebox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		executeBox.Text = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/commi-xyz/metastring/refs/heads/main/unc-test.commi]]
+	end)
+end
+coroutine.wrap(TVNGF_fake_script)()
+local function NAIGCJE_fake_script() -- inf_yield.LocalScript 
+	local script = Instance.new('LocalScript', inf_yield)
+
+	local button = script.Parent
+	local executeBox = script.Parent.Parent.Parent.Executebox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		executeBox.Text = [[loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()]]
+	end)
+end
+coroutine.wrap(NAIGCJE_fake_script)()
+local function KEQOIH_fake_script() -- owl_hub.LocalScript 
+	local script = Instance.new('LocalScript', owl_hub)
+
+	local button = script.Parent
+	local executeBox = script.Parent.Parent.Parent.Executebox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		executeBox.Text = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt'))()]]
+	end)
+end
+coroutine.wrap(KEQOIH_fake_script)()
+local function JWFSV_fake_script() -- user_creation.LocalScript 
+	local script = Instance.new('LocalScript', user_creation)
+
+	local button = script.Parent
+	local executeBox = script.Parent.Parent.Parent.Executebox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		executeBox.Text = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/1price/usercreation/main/UserCreation.lua'))()]]
+	end)
+end
+coroutine.wrap(JWFSV_fake_script)()
+local function YAMM_fake_script() -- universal_aim.LocalScript 
+	local script = Instance.new('LocalScript', universal_aim)
+
+	local button = script.Parent
+	local executeBox = script.Parent.Parent.Parent.Executebox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		executeBox.Text = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/ForlornWindow46/Roblox-Scripts/main/aimbot.lua"))()'))()]]
+	end)
+end
+coroutine.wrap(YAMM_fake_script)()
+local function KIOW_fake_script() -- dex.LocalScript 
+	local script = Instance.new('LocalScript', dex)
+
+	local button = script.Parent
+	local executeBox = script.Parent.Parent.Parent.Executebox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		executeBox.Text = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/ForlornWindow46/Roblox-Scripts/main/Dex"))()]]
+	end)
+end
+coroutine.wrap(KIOW_fake_script)()
+local function JNGH_fake_script() -- remove_spy.LocalScript 
+	local script = Instance.new('LocalScript', remove_spy)
+
+	local button = script.Parent
+	local executeBox = script.Parent.Parent.Parent.Executebox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		executeBox.Text = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/ForlornWindow46/Roblox-Scripts/main/bootspy.lua"))()]]
+	end)
+end
+coroutine.wrap(JNGH_fake_script)()
+local function RULVT_fake_script() -- car_speed.LocalScript 
+	local script = Instance.new('LocalScript', car_speed)
+
+	local button = script.Parent
+	local executeBox = script.Parent.Parent.Parent.Executebox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		executeBox.Text = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/ForlornWindow46/Roblox-Scripts/main/speed%20script%20for%20any%20game"))()"))()]]
+	end)
+end
+coroutine.wrap(RULVT_fake_script)()
+local function QGOJO_fake_script() -- executeButton.LocalScript 
+	local script = Instance.new('LocalScript', executeButton)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.Executebox
+	button.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+coroutine.wrap(QGOJO_fake_script)()
+local function APCTQ_fake_script() -- clearButton.LocalScript 
+	local script = Instance.new('LocalScript', clearButton)
+
+	local button = script.Parent
+	local textbox = script.Parent.Parent.Executebox
+	button.MouseButton1Click:Connect(function()
+		textbox.Text = ""
+	end)
+end
+coroutine.wrap(APCTQ_fake_script)()
+-- executor.lol is disabled.
+local function CITBN_fake_script() -- OffexecutorUI.LocalScript 
+	local script = Instance.new('LocalScript', OffexecutorUI)
+
+	local frame = script.Parent.Parent.executor
+	local open = false
+	
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(0.5, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local frameTween = TS:Create(frame, TI, {Position = UDim2.new({0.343, 0, 0.257, 0})})
+	
+	-- Check if the script's parent object is a UI object
+	if script.Parent:IsA("GuiObject") then
+		script.Parent.MouseButton1Click:Connect(function()
+			if frame.Position == UDim2.new(0.5, 0, 1.5, 0) then
+				frameTween:Play()
+			else
+				local frameoutTween = TS:Create(frame, TI, {Position = UDim2.new(0.5, 0, 1.5, 0)})
+				frameoutTween:Play()
+			end
+		end)
+	else
+		error("Script parent object is not a UI object!")
+	end
+end
+coroutine.wrap(CITBN_fake_script)()
+local function GYWWP_fake_script() -- Frame.offexecui 
+	local script = Instance.new('LocalScript', Frame)
+
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+	local frame = script.Parent
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(GYWWP_fake_script)()
+local function YVLKID_fake_script() -- star_2.LocalScript 
+	local script = Instance.new('LocalScript', star_2)
+
+	local image = script.Parent
+	local gradient = image.UIGradient
+	local ts = game:GetService("TweenService") 
+	local ti = TweenInfo.new(1, Enum.EasingStyle.Circular, Enum.EasingDirection.Out)
+	local offset1 = {Offset = Vector2.new(1, 0)}
+	local create = ts:Create(gradient, ti, offset1)
+	local startingPos = Vector2.new(-1, 0)
+	local addWait = 1
+	
+	
+	local function animate()
+	
+		create:Play()
+		create.Completed:Wait()
+		gradient.Offset = startingPos
+		create:Play()
+		create.Completed:Wait()
+		gradient.Offset = startingPos
+		wait(addWait)
+		animate()
+	
+	end
+	
+	animate()
+end
+coroutine.wrap(YVLKID_fake_script)()
